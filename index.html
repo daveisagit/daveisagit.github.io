@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--========== BOX ICONS ==========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+    <!--========== Google Material Icons ==========-->
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+
+    <!--========== CSS ==========-->
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <title>CV Dave Budd</title>
+</head>
+
+<body>
+    <!--========== HEADER ==========-->
+    <header class="l-header" id="header">
+        <nav class="nav bd-container">
+            <a href="#" class="nav__logo"></a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="#home" class="nav__link">
+                            <i class="bx bx-home nav__icon"></i>Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#skills" class="nav__link">
+                            <i class="bx bx-receipt nav__icon"></i>Skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#education" class="nav__link">
+                            <i class="bx bx-book nav__icon"></i>Education
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#certificates" class="nav__link">
+                            <i class="bx bx-award nav__icon"></i>Certificates
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#profile" class="nav__link">
+                            <i class="bx bx-user nav__icon"></i>Profile
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="#experience" class="nav__link">
+                            <i class="bx bx-briefcase-alt nav__icon"></i>Experience
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="bx bx-grid-alt"></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main bd-container">
+        <!-- All elements within this div, is generated in PDF -->
+        <div class="resume" id="area-cv">
+
+            <div class="resume__left">
+                <!--========== HOME ==========-->
+                <section class="home" id="home">
+
+                    <div class="home__container section bd-grid">
+
+                        <div class="home__data bd-grid">
+                            <img src="assets/img/me.jpg" alt="" class="home__img">
+                            <h1 class="home__title">Dave Budd</h1>
+                            <h3 class="home__profession">Software Engineer / Developer</h3>
+                            <div>
+                                <a download href="assets/pdf/CV Dave Budd.pdf" class="home__button-mobile">Download</a>
+                            </div>
+                        </div>
+
+                        <div class="home__address bd-grid">
+                            <span class="home__information">
+                                <i class="bx bx-map home__icon"></i> Bristol (UK)
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-envelope home__icon"></i> maildavebudd@gmail.com
+                            </span>
+                            <span class="home__information">
+                                <i class="bx bx-phone home__icon"></i> +44 77 966 944 32
+                            </span>
+                            <span class="home__information">
+                                <a href="https://github.com/daveisagit" target="_blank" class="social__link">
+                                    <i class="bx bxl-github home__icon"></i> daveisagit
+                                </a>
+                            </span>
+                        </div>
+
+                    </div>
+
+                    <!-- Theme change-->
+                    <i class="bx bx-moon change-theme" title="Theme" id="theme-button"></i>
+
+                    <!-- Button to generate and download the pdf. Available for desktop. -->
+                    <i class="bx bx-download generate-pdf" title="Generate PDF" id="resume-button"></i>
+
+                </section>
+
+                <!--========== SKILLS  ==========-->
+                <section class="skills section" id="skills">
+                    <h2 class="section-title">Skills</h2>
+
+                    <div class="skills__type">
+                        <h3 class="skills__title">Languages</h3>
+                        <div class="skills__content bd-grid">
+                            <span class="skills__name"><i class="bx bxl-python skills__icon"></i> Python</span>
+                            <span class="skills__name"><i class="bx bxl-java skills__icon"></i> Java</span>
+                            <span class="skills__name"><i class="bx bxl-javascript skills__icon"></i> Javascript</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__type">
+                        <h3 class="skills__title">Databases</h3>
+                        <div class="skills__content bd-grid">
+                            <span class="skills__name"><i class="bx bxl-postgresql skills__icon"></i> Postgres</span>
+                            <span class="skills__name">BigQuery</span>
+                            <span class="skills__name">Oracle</span>
+                            <span class="skills__name">MSSQL</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__type">
+                        <h3 class="skills__title">Frameworks</h3>
+                        <div class="skills__content bd-grid">
+                            <span class="skills__name"><i class="bx bxl-django skills__icon"></i> Django</span>
+                            <span class="skills__name">Celery</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__type">
+                        <h3 class="skills__title">Frontend</h3>
+                        <div class="skills__content bd-grid">
+                            <span class="skills__name">HTML/CSS</span>
+                            <span class="skills__name"><i class="bx bxl-jquery skills__icon"></i> jQuery</span>
+                            <span class="skills__name"><i class="bx bxl-bootstrap skills__icon"></i> Bootstrap</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__type">
+                        <h3 class="skills__title">Cloud</h3>
+                        <div class="skills__content bd-grid">
+                            <span class="skills__name"><i class="bx bxl-google-cloud skills__icon"></i> GCP</span>
+                            <span class="skills__name"><i class="bx bxl-kubernetes skills__icon"></i> Kubernetes</span>
+                            <span class="skills__name"> Terraform</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__type">
+                        <h3 class="skills__title">Integration / APIs</h3>
+                        <div class="skills__content bd-grid">
+                            <span class="skills__name">REST</span>
+                            <span class="skills__name">GraphQL</span>
+                            <span class="skills__name">SOAP</span>
+                            <span class="skills__name">JMS</span>
+                        </div>
+                    </div>
+
+                    <div class="skills__type">
+                        <h3 class="skills__title">Deployment + CI/CD</h3>
+                        <div class="skills__content bd-grid">
+                            <span class="skills__name"><i class="bx bxl-docker skills__icon"></i> Docker</span>
+                            <span class="skills__name">Kustomize</span>
+                            <span class="skills__name">Helm</span>
+                            <span class="skills__name">Github Actions</span>
+                            <span class="skills__name">Circle CI</span>
+                        </div>
+                    </div>
+
+                </section>
+
+
+                <!--========== EDUCATION ==========-->
+                <section class="education section" id="education">
+                    <h2 class="section-title">Education</h2>
+                    <div class="education__container bd-grid">
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <span class="education__line"></span>
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">BSc Mathematics</h3>
+                                <span class="education__studies">University of Southampton</span>
+                                <span class="education__year">1987-1990</span>
+                            </div>
+                        </div>
+
+                        <div class="education__content">
+                            <div class="education__time">
+                                <span class="education__rounder"></span>
+                                <!-- <span class="education__line"></span> -->
+                            </div>
+                            <div class="education__data bd-grid">
+                                <h3 class="education__title">PGCE</h3>
+                                <span class="education__studies">Institute of Education</span>
+                                <span class="education__year">1990-1991</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </section>
+
+                <!--========== CERTIFICATES ==========-->
+                <section class="certificate section" id="certificates">
+                    <h2 class="section-title">Certificates</h2>
+
+                    <div class="certificate__container bd-grid">
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Java 7 (2014)</h3>
+                            <p class="certificate__description">Part I of the Java certification</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Informatica (2014)</h3>
+                            <p class="certificate__description">For completing training and exam in using Informatica
+                            </p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">SC Security Clearance (2010)</h3>
+                            <p class="certificate__description">Project at the time required everyone be SC security
+                                cleared.</p>
+                        </div>
+                        <div class="certificate__content">
+                            <h3 class="certificate__title">Siebel (2001)</h3>
+                            <p class="certificate__description">For completing training and exam in using Siebel CRM</p>
+                        </div>
+                    </div>
+
+                </section>
+
+            </div>
+
+            <div class="resume__right">
+
+                <!--========== PROFILE ==========-->
+                <section class="profile section" id="profile">
+                    <h2 class="section-title">Profile</h2>
+                    <p class="profile__description">I have over 25 years experience of projects in various business
+                        sectors including Finance, Banking, Charity, Public Sector, Utilities and Logistics.
+                    </p>
+                    <br>
+                    <p class="profile__description">I primarily work in development roles but have also done Analysis,
+                        Design, Data Migration, Integration and DevOps. I have experienced a wide range of
+                        technologies and languages and I am proficient in picking up new ones very quickly.
+                    </p>
+                </section>
+
+                <!--========== EXPERIENCE ==========-->
+                <section class="experience section" id="experience">
+                    <h2 class="section-title">Experience</h2>
+
+                    <div class="experience__container bd-grid">
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <div class="experience__header">
+                                    <h3 class="experience__title">Software Engineer</h3>
+                                    <span class="experience__dates">Feb 2019 - Present</span>
+                                    <span class="experience__company">OVO Energy</span>
+                                </div>
+                                <ul class="experience__description">
+                                    <li>Helped decommission an outdated in-house FTP/MFT system.</li>
+                                    <li>Created a prototype python application using django (frontend) + celery
+                                        (backend) to collate all SaaS licenses under a user identity.</li>
+                                    <li>Deployed the product into production hosted on a GCP kubernetes cluster with
+                                        CI/CD + monitoring.
+                                    </li>
+                                    <li>Ensured the internet facing frontend as well as the backend met our security
+                                        standards and passed regular penetration tests.</li>
+                                    <li>Refactored the application model into a graph-like structure so we could relate
+                                        anything to anything and capture a wider range of things including cloud
+                                        infrastructure.</li>
+                                    <li>The product is a valued tool for the business answering queries regarding
+                                        ownership, highlighting issues and supporting automations. It has saved over £1M
+                                        in license costs and reduced security risks.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <div class="experience__header">
+                                    <h3 class="experience__title">Tester</h3>
+                                    <span class="experience__dates">Sep 2018 - Jan 2019</span>
+                                    <span class="experience__company">Felinesoft</span>
+                                </div>
+                                <p class="experience__description">Felinesoft was a small consultancy offering SaaS CRM
+                                    Software solutions via Microsoft CRM.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="experience__note">
+                            <p>Up to this point I had being working as a contractor for 20 years involving a lot of
+                                travel and decided I wanted to be more permanently based in Bristol.</p>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <div class="experience__header">
+                                    <h3 class="experience__title">Developer</h3>
+                                    <span class="experience__dates">Aug 2017 - June 2018</span>
+                                    <span class="experience__company">Boxfusion (for CIMA)</span>
+                                </div>
+                                <ul class="experience__description">
+                                    <li>Implemented various web service integrations into their clients (CIMA) CRM
+                                        system</li>
+                                </ul>
+                                <div style="width: 100%;"></div>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <div class="experience__header">
+                                    <h3 class="experience__title">Developer</h3>
+                                    <span class="experience__dates">Aug 2013 - July 2017</span>
+                                    <span class="experience__company">Cancer Research</span>
+                                </div>
+                                <ul class="experience__description">
+                                    <li>Built integrations for their data suppliers to supply feeds into their CRM
+                                        system
+                                    </li>
+                                    <li>Designed and built RESTful APIs over the CRM to allow easy integration to their
+                                        Events Management system</li>
+                                    <li>Developed an internal Enterprise Service Bus using TIBCO after evaluating other
+                                        similar products</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <div class="experience__header">
+                                    <h3 class="experience__title">Developer</h3>
+                                    <span class="experience__dates">Mar 2013 - July 2013</span>
+                                    <span class="experience__company">Customer Systems</span>
+                                </div>
+                                <ul class="experience__description">
+                                    <li>Extended integrations (to World Pay) for Dyson's CRM system.</li>
+                                    <li>Built course application integrations for CIMA</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <span class="experience__line"></span>
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <div class="experience__header">
+                                    <h3 class="experience__title">Data Analyst</h3>
+                                    <span class="experience__dates">Mar 2010 - Jan 2013</span>
+                                    <span class="experience__company">Research Councils</span>
+                                </div>
+                                <ul class="experience__description">
+                                    <li>Homogenised 7 organisations onto a new common system involving over a 100
+                                        entities with high volumes of data.</li>
+                                    <li>Developed a data validation engine to speed up the turn around of iterations.
+                                    </li>
+                                    <li>Developed ETL integrations to their data warehouse.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="experience__content">
+                            <div class="experience__time">
+                                <span class="experience__rounder"></span>
+                                <!-- <span class="experience__line"></span> -->
+                            </div>
+                            <div class="experience__data bd-grid">
+                                <div class="experience__header">
+                                    <h3 class="experience__title">Integration Developer</h3>
+                                    <span class="experience__dates">June 2009 - Feb 2010</span>
+                                    <span class="experience__company">Logica</span>
+                                </div>
+                                <ul class="experience__description">
+                                    <li>Developed integrations for the governments vetting and barring scheme.</li>
+                                    <li>Added protective monitoring to record the accessing of sensitive data.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </section>
+
+                <!--========== INTERESTS ==========-->
+                <section class="interests section">
+                    <h2 class="section-title">Interests</h2>
+
+                    <div class="interests__container bd-grid">
+
+                        <div class="interests__content">
+                            <span class="material-symbols-outlined interests__icon">music_note</span>
+                            <span class="interests__name">Jazz</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <span class="material-symbols-outlined interests__icon">calculate</span>
+                            <span class="interests__name">Recreational Maths</span>
+                        </div>
+
+                        <div class="interests__content">
+                            <span class="material-symbols-outlined interests__icon">rowing</span>
+                            <span class="interests__name">Rowing</span>
+                        </div>
+
+                    </div>
+
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!--========== SCROLL TOP ==========-->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="bx bx-up-arrow-alt scrolltop__icon"></i>
+    </a>
+
+
+    <!--========== HTML2PDF ==========-->
+    <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+    <!--========== MAIN JS ==========-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
