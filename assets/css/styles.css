@@ -112,9 +112,9 @@ body.scale-cv {
     padding: 0.7rem 0 .5rem;
 }
 
-.scale-cv .section.profile {
+/* .scale-cv .section.profile {
     padding-bottom: 0px;
-}
+} */
 
 .scale-cv .section.experience {
     padding-top: 0px;
@@ -145,6 +145,10 @@ body.scale-cv {
 
 .scale-cv .home__data {
     gap: .25rem;
+}
+
+.scale-cv .home__webpage {
+    display: inherit !important;
 }
 
 .scale-cv .home__address,
@@ -424,6 +428,12 @@ section {
 .home__profession {
     font-size: var(--normal-font-size);
     margin-bottom: var(--mb-1);
+}
+
+.home__webpage {
+    font-size: var(--small-font-size);
+    margin-bottom: var(--mb-1);
+    display: none;
 }
 
 .home__address {
@@ -710,9 +720,4 @@ ul.experience__description {
         column-gap: 3.5rem;
     }
 
-}
-
-
-.scale-cv .notpdf {
-    display: none;
 }
